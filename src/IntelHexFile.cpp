@@ -58,5 +58,7 @@ ostream& operator<<(ostream& os, const IntelHexFile& rhs)
 	size_t size = rhs.addressToFileEntries.size();
 
 	os << "[Address Range: 0x" << hex << (size_t)lAddress << "-0x" << hex << (size_t)hAddress << ", Number of HexFileEntries: " << dec << size << "]";
+
+    return os;
 }
 

@@ -58,5 +58,7 @@ ostream& operator<<(ostream& os, const ProgramPage& rhs)
 	} 
 
 	os << dec << "]";
+
+    return os;
 }
 
